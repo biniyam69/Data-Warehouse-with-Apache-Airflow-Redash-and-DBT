@@ -915,3 +915,248 @@
 [2023-12-22T07:18:27.373+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:18:27.373+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2023-12-22T07:18:27.395+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:18:27.395+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
 [2023-12-22T07:18:27.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.380 seconds
+[2023-12-22T07:18:57.821+0000] {processor.py:161} INFO - Started process (PID=7560) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:18:57.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:18:57.825+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:18:57.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:18:58.139+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:18:58.154+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:18:58.153+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:18:58.171+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:18:58.171+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:18:58.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.368 seconds
+[2023-12-22T07:19:28.402+0000] {processor.py:161} INFO - Started process (PID=7617) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:19:28.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:19:28.405+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:19:28.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:19:28.773+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:19:28.787+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:19:28.786+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:19:28.805+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:19:28.805+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:19:28.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.419 seconds
+[2023-12-22T07:19:59.372+0000] {processor.py:161} INFO - Started process (PID=7680) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:19:59.373+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:19:59.376+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:19:59.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:19:59.712+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:19:59.725+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:19:59.725+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:19:59.744+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:19:59.744+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:19:59.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.390 seconds
+[2023-12-22T07:20:30.202+0000] {processor.py:161} INFO - Started process (PID=7737) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:20:30.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:20:30.206+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:20:30.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:20:30.596+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:20:30.612+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:20:30.612+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:20:30.632+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:20:30.631+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:20:30.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.449 seconds
+[2023-12-22T07:21:00.745+0000] {processor.py:161} INFO - Started process (PID=7794) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:21:00.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:21:00.748+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:21:00.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:21:01.079+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:21:01.093+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:21:01.093+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:21:01.113+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:21:01.113+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:21:01.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.386 seconds
+[2023-12-22T07:21:31.355+0000] {processor.py:161} INFO - Started process (PID=7851) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:21:31.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:21:31.359+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:21:31.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:21:31.682+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:21:31.696+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:21:31.696+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:21:31.714+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:21:31.713+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:21:31.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.376 seconds
+[2023-12-22T07:22:01.840+0000] {processor.py:161} INFO - Started process (PID=7908) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:22:01.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:22:01.843+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:22:01.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:22:02.222+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:22:02.238+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:22:02.237+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:22:02.258+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:22:02.258+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:22:02.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.439 seconds
+[2023-12-22T07:22:32.626+0000] {processor.py:161} INFO - Started process (PID=7965) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:22:32.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:22:32.630+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:22:32.630+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:22:32.971+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:22:32.986+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:22:32.985+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:22:33.006+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:22:33.006+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:22:33.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.399 seconds
+[2023-12-22T07:23:03.269+0000] {processor.py:161} INFO - Started process (PID=8022) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:23:03.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:23:03.272+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:23:03.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:23:03.592+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:23:03.606+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:23:03.606+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:23:03.626+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:23:03.626+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:23:03.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.374 seconds
+[2023-12-22T07:23:33.977+0000] {processor.py:161} INFO - Started process (PID=8079) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:23:33.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:23:33.980+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:23:33.980+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:23:34.349+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:23:34.364+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:23:34.364+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:23:34.383+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:23:34.383+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:23:34.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.427 seconds
+[2023-12-22T07:24:04.668+0000] {processor.py:161} INFO - Started process (PID=8136) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:24:04.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:24:04.671+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:24:04.671+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:24:05.040+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:24:05.061+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:24:05.061+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:24:05.087+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:24:05.086+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:24:05.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.444 seconds
+[2023-12-22T07:24:35.558+0000] {processor.py:161} INFO - Started process (PID=8193) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:24:35.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:24:35.562+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:24:35.561+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:24:35.937+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:24:35.956+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:24:35.956+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:24:35.986+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:24:35.986+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:24:36.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.452 seconds
+[2023-12-22T07:25:06.395+0000] {processor.py:161} INFO - Started process (PID=8250) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:25:06.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:25:06.400+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:25:06.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:25:06.790+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:25:06.804+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:25:06.803+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:25:06.822+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:25:06.821+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:25:06.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.449 seconds
+[2023-12-22T07:25:37.393+0000] {processor.py:161} INFO - Started process (PID=8308) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:25:37.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:25:37.397+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:25:37.397+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:25:37.778+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:25:37.796+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:25:37.795+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:25:37.820+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:25:37.819+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:25:37.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.447 seconds
+[2023-12-22T07:26:08.182+0000] {processor.py:161} INFO - Started process (PID=8365) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:26:08.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:26:08.186+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:26:08.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:26:08.564+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:26:08.580+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:26:08.580+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:26:08.606+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:26:08.605+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:26:08.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.446 seconds
+[2023-12-22T07:26:39.147+0000] {processor.py:161} INFO - Started process (PID=8422) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:26:39.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:26:39.151+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:26:39.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:26:39.494+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:26:39.509+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:26:39.509+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:26:39.528+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:26:39.528+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:26:39.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.406 seconds
+[2023-12-22T07:27:09.941+0000] {processor.py:161} INFO - Started process (PID=8479) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:27:09.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:27:09.945+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:27:09.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:27:10.291+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:27:10.306+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:27:10.306+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:27:10.328+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:27:10.327+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:27:10.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.405 seconds
+[2023-12-22T07:27:40.762+0000] {processor.py:161} INFO - Started process (PID=8536) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:27:40.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:27:40.765+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:27:40.765+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:27:41.106+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:27:41.120+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:27:41.120+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:27:41.139+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:27:41.139+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:27:41.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.400 seconds
+[2023-12-22T07:28:11.229+0000] {processor.py:161} INFO - Started process (PID=8592) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:28:11.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:28:11.233+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:28:11.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:28:11.591+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:28:11.608+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:28:11.607+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:28:11.626+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:28:11.626+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:28:11.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.416 seconds
+[2023-12-22T07:28:41.844+0000] {processor.py:161} INFO - Started process (PID=8649) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:28:41.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:28:41.848+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:28:41.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:28:42.196+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:28:42.213+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:28:42.213+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:28:42.235+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:28:42.234+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:28:42.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.407 seconds
+[2023-12-22T07:29:12.562+0000] {processor.py:161} INFO - Started process (PID=8705) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:29:12.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:29:12.566+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:29:12.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:29:12.907+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:29:12.922+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:29:12.921+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:29:12.941+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:29:12.941+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:29:12.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.396 seconds
+[2023-12-22T07:29:43.804+0000] {processor.py:161} INFO - Started process (PID=8762) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:29:43.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:29:43.814+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:29:43.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:29:44.149+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:29:44.163+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:29:44.162+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:29:44.181+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:29:44.180+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:29:44.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.395 seconds
+[2023-12-22T07:30:14.542+0000] {processor.py:161} INFO - Started process (PID=8819) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:30:14.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:30:14.546+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:30:14.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:30:14.904+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:30:14.919+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:30:14.919+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:30:14.938+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:30:14.938+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:30:14.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.415 seconds
+[2023-12-22T07:30:45.026+0000] {processor.py:161} INFO - Started process (PID=8877) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:30:45.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:30:45.030+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:30:45.030+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:30:45.451+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:30:45.469+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:30:45.468+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:30:45.491+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:30:45.490+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:30:45.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.488 seconds
+[2023-12-22T07:31:15.546+0000] {processor.py:161} INFO - Started process (PID=8934) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:31:15.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:31:15.553+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:31:15.553+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:31:16.023+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:31:16.045+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:31:16.044+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:31:16.069+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:31:16.069+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:31:16.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.549 seconds
+[2023-12-22T07:31:46.389+0000] {processor.py:161} INFO - Started process (PID=8990) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:31:46.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:31:46.392+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:31:46.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:31:46.818+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:31:46.837+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:31:46.836+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:31:46.860+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:31:46.859+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:31:46.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.494 seconds
+[2023-12-22T07:32:17.759+0000] {processor.py:161} INFO - Started process (PID=9047) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:32:17.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:32:17.763+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:32:17.763+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:32:18.024+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:32:18.044+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:32:18.043+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:32:18.067+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:32:18.067+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:32:18.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.334 seconds
+[2023-12-22T07:32:48.143+0000] {processor.py:161} INFO - Started process (PID=9104) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:32:48.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:32:48.147+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:32:48.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:32:48.617+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:32:48.636+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:32:48.635+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:32:48.658+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:32:48.658+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:32:48.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.540 seconds
+[2023-12-22T07:33:19.570+0000] {processor.py:161} INFO - Started process (PID=9161) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:33:19.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:33:19.576+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:33:19.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:33:19.844+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:33:19.864+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:33:19.864+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:33:19.893+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:33:19.893+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:33:19.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.347 seconds
+[2023-12-22T07:33:50.738+0000] {processor.py:161} INFO - Started process (PID=9218) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:33:50.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:33:50.743+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:33:50.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:33:51.045+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:33:51.067+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:33:51.066+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:33:51.095+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:33:51.094+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:33:51.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.380 seconds
+[2023-12-22T07:34:21.365+0000] {processor.py:161} INFO - Started process (PID=9275) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:34:21.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:34:21.370+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:34:21.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:34:21.601+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:34:21.618+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:34:21.618+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:34:21.638+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:34:21.638+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:34:21.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.291 seconds
+[2023-12-22T07:34:51.933+0000] {processor.py:161} INFO - Started process (PID=9332) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:34:51.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:34:51.937+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:34:51.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:34:52.194+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:34:52.212+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:34:52.211+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:34:52.236+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:34:52.236+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:34:52.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.323 seconds
+[2023-12-22T07:35:22.555+0000] {processor.py:161} INFO - Started process (PID=9389) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:35:22.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:35:22.559+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:35:22.559+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:35:22.773+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:35:22.791+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:35:22.790+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:35:22.812+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:35:22.812+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:35:22.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.276 seconds
+[2023-12-22T07:35:52.940+0000] {processor.py:161} INFO - Started process (PID=9446) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:35:52.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:35:52.945+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:35:52.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:35:53.177+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:35:53.194+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:35:53.193+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:35:53.214+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:35:53.214+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:35:53.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.296 seconds
+[2023-12-22T07:36:23.730+0000] {processor.py:161} INFO - Started process (PID=9503) to work on /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:36:23.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dev/load_data.py for tasks to queue
+[2023-12-22T07:36:23.734+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:36:23.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:36:23.946+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_pg_dag' retrieved from /opt/airflow/dags/dev/load_data.py
+[2023-12-22T07:36:23.964+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:36:23.963+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-22T07:36:23.986+0000] {logging_mixin.py:188} INFO - [2023-12-22T07:36:23.986+0000] {dag.py:3820} INFO - Setting next_dagrun for load_csv_to_pg_dag to 2023-12-01T00:00:00+00:00, run_after=2023-12-02T00:00:00+00:00
+[2023-12-22T07:36:24.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dev/load_data.py took 0.275 seconds
