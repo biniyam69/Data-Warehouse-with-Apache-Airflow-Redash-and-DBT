@@ -8,11 +8,11 @@ import psycopg2
 def load_csv_to_pg():
     try:
         conn = psycopg2.connect(
-            dbname='your_db_name',
-            user='your_db_user',
-            password='your_db_password',
-            host='your_db_host',
-            port='your_db_port'
+            dbname='airflow',
+            user='postgres',
+            password='airflow',
+            host='localhost',
+            port='5432'
         )
 
         csv_path = '/home/biniyam/dwh-project-UAV/data/week2data.csv'
@@ -21,7 +21,7 @@ def load_csv_to_pg():
         df = pd.read_csv(csv_path)
 
         # Assuming table name is 'your_table_name' and you want to append data
-        df.to_sql('your_table_name', conn, if_exists='append', index=False)
+        df.to_sql('airflow', conn, if_exists='append', index=False)
 
         conn.commit()
         conn.close()
