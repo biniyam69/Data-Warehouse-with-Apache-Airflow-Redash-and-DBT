@@ -1,9 +1,10 @@
 CREATE TABLE IF NOT EXISTS trajectories
 (
-    'track_id' TEXT NOT NULL,
-    'type' TEXT NOT NULL,
-    'traveled_d' TEXT DEFAULT NULL,
-    'avg_speed' TEXT DEFAULT NULL
-    PRIMARY KEY ('track_id')
+    track_id SERIAL PRIMARY KEY,
+    lat FLOAT NOT NULL,
+    lon TEXT NOT NULL,
+    speed REAL NOT NULL,
+    lat_acc REAL NOT NULL,
+    lon_acc REAL NOT NULL,
+    time DATE NOT NULL
 );
-

@@ -1,22 +1,50 @@
-company-name:
+traffic:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 10
+      host: host.docker.internal
+      port: 5432
+      user: airflow
+      pass: airflow
+      dbname: postgres
+      schema: public
+
+    prod:
+      type: postgres
+      threads: 10
+      host: host.docker.internal
+      port: 5432
+      user: airflow
+      pass: airflow
+      dbname: postgres
+      schema: public
+      
   target: dev
+
+
+pneuma_data:
+
   outputs:
     dev:
       type: postgres
-      host: [localhost]
-      user: [dwh]
-      password: [heisenberg]
-      port: [53]
-      dbname: [dwh] # or database instead of dbname
-      schema: [dbt schema]
-      threads: [optional, 1 or more]
-      [keepalives_idle]: 0 # default 0, indicating the system default. See below
-      connect_timeout: 10 # default 10 seconds
-      [retries]: 1  # default 1 retry on error/timeout when opening connections
-      [search_path]: [optional, override the default postgres search_path]
-      [role]: [optional, set the role dbt assumes when executing queries]
-      [sslmode]: [optional, set the sslmode used to connect to the database]
-      [sslcert]: [optional, set the sslcert to control the certifcate file location]
-      [sslkey]: [optional, set the sslkey to control the location of the private key]
-      [sslrootcert]: [optional, set the sslrootcert config value to a new file path in order to customize the file location that contain root certificates]
-  
+      threads: 10
+      host: host.docker.internal
+      port: 5432
+      user: airflow
+      pass: airflow
+      dbname: postgres
+      schema: public
+
+    prod:
+      type: postgres
+      threads: 10
+      host: 127.0.0.1
+      port: 2000
+      user: postgres
+      pass: root
+      dbname: traffic_data
+      schema: public
+
+  target: dev
