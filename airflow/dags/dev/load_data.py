@@ -1,50 +1,75 @@
-from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
-from datetime import datetime
+from sqlalchemy import create_engine
 import pandas as pd
-import psycopg2
+import os
+from datetime import timedelta, datetime
+import sys
+import airflow
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from postgres import create_table, insert_to_table
+
+cwd = os.getcwd
+sys.path.append(f'/home/biniyam/dwh-project-UAV/scripts/')
+sys.path.append(f'/home/biniyam/dwh-project-UAV/postgres/')
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+
+from read_data import ReadData
+import data_tools
+
+def extract_and_load(file_path):
+    file_path = file_path
+    read = ReadData()
+
+    traj_df, vehicle_df = read.get_dataframes(file_path=file_path)
+    create_table()
+    insert_to_table(traj_df)
+    insert_to_table(vehicle_df)
+
+extract_and_load(file_path='/home/biniyam/dwh-project-UAV/data/week2data.csv')
+    
 
 
-def load_csv_to_pg():
-    try:
-        conn = psycopg2.connect(
-            dbname='your_db_name',
-            user='your_db_user',
-            password='your_db_password',
-            host='your_db_host',
-            port='your_db_port'
-        )
-
-        csv_path = '/home/biniyam/dwh-project-UAV/data/week2data.csv'
-
-        # Load CSV into Pandas DataFrame
-        df = pd.read_csv(csv_path)
-
-        # Assuming table name is 'your_table_name' and you want to append data
-        df.to_sql('your_table_name', conn, if_exists='append', index=False)
-
-        conn.commit()
-        conn.close()
-        print("CSV data loaded into PostgreSQL successfully!")
-    except Exception as e:
-        print("Error:", e)
 
 
-# Define Airflow DAG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 default_args = {
-    'owner': 'airflow',
+    'owner': 'biniyam',
     'depends_on_past': False,
-    'start_date': datetime(2023, 12, 1),
-    'retries': 1,
+    'email': ['odolbiniyam@gmail.com'],
+    'email_on_failure': False,
+    'email_on_retry': False,
+    'retires': 5,
+    'retry_delay':timedelta(minutes=2)
 }
 
-dag = DAG('load_csv_to_pg_dag',
-          default_args=default_args,
-          schedule_interval='@daily')
+with DAG(
+    dag_id='dag_traffic',
+    default_args=default_args,
+    description='Dag to load and transform data',
+    start_date=airflow.datetime(2023, ),
+    schedule_interval='@once'
+) as dag:
+    task1 = PythonOperator(
+        task_id='migrate_data',
+        python_callable=migrate,
+        op_kwargs={
+            "path": "./data/week2data.csv",
+            'db_table':"endpoints_uavdata"
+        }
 
-# Define the PythonOperator
-load_data_task = PythonOperator(
-    task_id='load_data_task',
-    python_callable=load_csv_to_pg,
-    dag=dag,
-)
+    )
+    task1
