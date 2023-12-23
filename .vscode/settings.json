@@ -9,5 +9,8 @@
             "database": "postges",
             "username": "postgres"
         }
+    ],
+    "python.analysis.extraPaths": [
+        "./postgres"
     ]
 }
