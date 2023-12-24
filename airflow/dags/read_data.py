@@ -3,10 +3,6 @@ import pandas as pd
 class ReadData:
     def __init__(self, path=None):
         self.file_path = path
-
-
-    def get_unique_id(self, filename, row_num):
-        return f"{filename}_{row_num}"
     
     def read_file(self, path) -> list:
 

@@ -8,12 +8,12 @@ TRAJ_SCHEMA = 'trajectory_schema.sql'
 class SqlUtils:
     def __init__(self) -> None:
         #  initialize the sqlalchemy engine
-        self.engine = create_engine('postgresql+psycopg2://airflow:airflow@host.docker.internal:5432/postgres')
+        self.engine = create_engine('postgresql://airflow:airflow@0.0.0.0:2000/airflow')
 
     def create_table(self):
         with self.engine.connect() as connection:
             for file in [VEHICLE_SCHEMA, TRAJ_SCHEMA]:
-                with open(f'/postgres/{file}', 'r') as f:
+                with open(f'/home/biniyam/dwh-project-UAV/postgres/{file}', 'r') as f:
                     query = text(f.read())
                     connection.execute(query)
 

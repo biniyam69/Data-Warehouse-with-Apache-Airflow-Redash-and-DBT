@@ -1,3 +1,6 @@
 dbt==0.15
 pandas
 numpy
+sqlalchemy
+psycopg2
+pandas
