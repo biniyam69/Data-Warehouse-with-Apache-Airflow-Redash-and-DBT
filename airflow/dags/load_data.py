@@ -4,8 +4,11 @@ import sys
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-sys.path.append('/home/biniyam/dwh-project-UAV/scripts/')
-sys.path.append('/home/biniyam/dwh-project-UAV/postgres/')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# get the parent directory
+project_root = os.path.abspath(os.path.join(current_dir, '..'))
+# add the parent directory containing the module to the python path
+sys.path.append(project_root)
 
 
 from read_data import ReadData
