@@ -77,6 +77,7 @@ We will be using the pNEUMA drone dataset and do analysis on it
 
 **How to get the data?**
    - [Download here](https://open-traffic.epfl.ch/index.php/downloads/)
+   - [Understand the data](https://datafromsky.com/wp-content/uploads/2015/03/PIA15_poster.pdf)
 
 ## Screenshots
 
