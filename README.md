@@ -64,6 +64,17 @@ Welcome to a project focused on deploying sensors to businesses and collecting d
 
 5. Access Redash dashboard at http://localhost:5000.
 
+## Dataset
+---
+We will be using the pNEUMA drone dataset and do analysis on it
+
+![Screenshot from 2024-03-20 15-59-43](https://github.com/biniyam69/Data-Warehouse-with-Apache-Airflow-Redash-and-DBT-/assets/91191700/47077a79-7021-4f43-bd4b-62371a1b3a1c)
+---
+
+![Screenshot from 2024-03-20 15-59-29](https://github.com/biniyam69/Data-Warehouse-with-Apache-Airflow-Redash-and-DBT-/assets/91191700/19827817-5ba8-43fd-8c11-4077db0836c1)
+
+---
+
 ## Screenshots
 
 ### Airflow & DBT
