@@ -75,6 +75,9 @@ We will be using the pNEUMA drone dataset and do analysis on it
 
 ---
 
+**How to get the data?**
+   - [Download here](https://open-traffic.epfl.ch/index.php/downloads/)
+
 ## Screenshots
 
 ### Airflow & DBT
